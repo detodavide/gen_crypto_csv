@@ -16,7 +16,7 @@ def main():
     st.subheader("Generate a csv from Binance")
 
     client = bin_client()
-    client.API_URL = "https://data.binance.eu/api"
+    client.API_URL = "https://data.binance.us/api"
     tickers = client.get_all_tickers()
     search_ticker = st.text_input("Search for a ticker: ")
 
