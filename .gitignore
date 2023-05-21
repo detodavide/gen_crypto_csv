@@ -11,8 +11,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-app.py
-.streamlit
+.streamlit/
 data/
 .Python
 build/
